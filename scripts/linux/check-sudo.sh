@@ -4,6 +4,7 @@
 if command -v sudo &> /dev/null
 then
   echo "sudo exists"
+  exit 0
 else
   echo "sudo does not exist"
 fi
